@@ -13,6 +13,10 @@ int heapify(int a[],int n,int i)
     {
         largest=r;
     }
+    int p,q;
+    cin>>p;
+    for(int i=0;i<p;i++)
+        q++;
     if(largest!=i)
     {
         swap(a[i],a[largest]);
